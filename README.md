@@ -4,15 +4,15 @@ powermon is an ESP8266 based application which counts the number of pulses from 
 # Screenshots
 powermon Interface:
 
-![alt tag](/screenshots/Interface.png)
+![alt tag](/screenshots/Interface.PNG?raw=true)
 
 powermon Settings:
 
-![alt tag](/screenshots/Settings.png)
+![alt tag](/screenshots/Settings.PNG?raw=true)
 
 powermon ADC Interface:
 
-![alt tag](/screenshots/ADC.png)
+![alt tag](/screenshots/ADC.PNG?raw=true)
 
 #To get started:
 
@@ -23,13 +23,13 @@ Steps:
 *** Please Note: The IP Address mentioned in the steps below are for the Access Point mode of the ESP8266. If using the Client Mode, it is best to find the 
 correct IP Address for the device and substitute it.
 
-1) Download a clone of the application and extract it.
-2) The Default Access Point name and password are defined in the Globals.h file; it is best to change these before proceeding.
-3) Navigate to the base path using command prompt or terminal.
-4) Run "platformio run"
-5) Upon downloading the application to the ESP8266, look for the WiFi Access Point details which were specified earlier in step 2.
-6) Navigate to http://192.168.4.1/settings.html
-7) Adjust the settings as required:
+1) Download a clone of the application and extract it.  
+2) The Default Access Point name and password are defined in the Globals.h file; it is best to change these before proceeding.  
+3) Navigate to the base path using command prompt or terminal.  
+4) Run "platformio run"  
+5) Upon downloading the application to the ESP8266, look for the WiFi Access Point details which were specified earlier in step 2.  
+6) Navigate to http://192.168.4.1/settings.html  
+7) Adjust the settings as required:  
 
 	Client SSID: The Access Point the ESP8266 is to connect to in Client Mode.
 	Client Password: The Password for the Access Point mentioned above.
@@ -50,7 +50,7 @@ correct IP Address for the device and substitute it.
 	Push Argument: The GET attribute in which to link the calculated value to.
 	Push Frequency: The number of cycles to pass for each push of the calculated values to the server.
 
-#Notes:	
-1) You can view debug information via the Serial Port on the ESP8266. It runs at 115200bps.
-2) To view the ADC via a graph/chart, navigate to http://192.168.4.1/graph.html
-3) To view the current pulse count, and the calculated value, navigate to http://192.168.4.1/
+#Notes:	 
+1) You can view debug information via the Serial Port on the ESP8266. It runs at 115200bps.  
+2) To view the ADC via a graph/chart, navigate to http://192.168.4.1/graph.html  
+3) To view the current pulse count, and the calculated value, navigate to http://192.168.4.1/  
