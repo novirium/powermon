@@ -1,0 +1,43 @@
+body {
+	background-color: #2eb82e;
+	color: white;
+}
+span {
+	width: 300px;
+	display: inline-block;
+}
+iframe {
+	width: 100%;
+	height: 500px;
+	display: block;
+
+	border: 0.5px solid;
+}
+fieldset {
+	width: 99%;
+
+	border: 0px
+}
+input {
+	width: 80%;
+
+	padding: 10px;
+	border: solid 1px #dcdcdc;
+	transition: box-shadow 0.3s, border 0.3s;
+}
+input:focus,
+input.focus {
+	border: solid 1px #707070;
+	box-shadow: 0 0 5px 1px #969696;
+}
+#main _outer {
+	width: 100%;
+}
+#main_inner  {
+	width: 30%;
+	margin: 0 auto;
+}
+#chart_div {
+	width: 100%;
+	height: 80%;
+}
